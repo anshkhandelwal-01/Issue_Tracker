@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="/css/home.css">
+<div id="main-body">
+  <h1>Issue Detail - <%= issues.title %></h1>
+  <p>Description: <%= issues.description %></p>
+  <p>Labels: <%= issues.labels.join(', ') %></p>
+  <p>Author: <%= issues.author %></p>
+  <a href="/projects/<%= issues.project %>"><button>Back to Project Detail</button></a>
+</div>

@@ -1,0 +1,32 @@
+#main-body{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/086/260/non_2x/virus-hazard-sign-virus-detected-computer-bug-made-with-binary-code-hacked-digital-binary-data-and-streaming-digital-code-background-concept-of-cyber-crime-internet-piracy-and-hacking-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+}
+
+ol{
+    list-style-position: inside;
+    margin-left: 40%;
+}
+
+ol li{
+    text-align: left;
+}
+
+form{
+    text-align: left;
+    margin-left: 40%;
+}
+
+form input{
+    margin: 5px 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

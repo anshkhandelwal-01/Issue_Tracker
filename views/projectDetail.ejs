@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="/css/home.css">
+<div id="main-body">
+  <h1>Project Detail - <%= project.name %></h1>
+  <p>Description: <%= project.description %></p>
+  <p>Author: <%= project.author %></p>
+  <h2>Bugs</h2>
+  <ul>
+    <% project.issues.forEach((issue) => { %>
+      <li>
+        <a href="/projects/issues/<%= issue._id %>">
+          <%= issue.title %>
+        </a>
+      </li>
+    <% }) %>
+  </ul>
+  <a href="/projects/<%= project._id %>/issues/create"><button>Create New Issue</button></a>
+</div>
